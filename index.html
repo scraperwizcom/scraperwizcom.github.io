@@ -1,9 +1,295 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>hi</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MHDE519680"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-MHDE519680");
+    </script>
+    <title>ScraperWiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="General Data Scraper. 1-click Crawl, Export, Analysis. Crawl any website and chat about your scrapes with built-in AI to get insights."
+    />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    hi
+    <div class="header-cnt"><div class="header"></div></div>
+    <div class="main">
+      <div class="major">
+        <div class="homepage-presentation-cnt">
+          <div class="cnt left-right-cnt" id="landing">
+            <div class="left-sub-cnt">
+              <div class="img-cnt">
+                <img
+                  class="presentation-img cursor-pointer"
+                  src="/images/demo-app.png"
+                  onclick="window.open('/images/demo/demo-app.png','_blank')"
+                />
+              </div>
+            </div>
+            <div class="right-sub-cnt">
+              <div class="h1-cnt">
+                <div class="h2-h1-cnt">
+                  <h2>World's First</h2>
+                  <h1>General Data Scraper</h1>
+                </div>
+                <h2>1-Click: Crawl, Export, Analysis</h2>
+                <h3>
+                  Scrape and crawl any website to extract data.<br />
+                  Chat about your scrapes with built-in AI to get insights.
+                </h3>
+              </div>
+
+              <div class="homepagebtn-cnt">
+                <div
+                  class="card clickable-card"
+                  onclick="window.location.href='mailto:contact@scraperwiz.com?subject=ScraperWiz%20Desktop%20App%20Request'"
+                >
+                  <div class="card-content">
+                    <div class="label">Request Desktop App</div>
+                  </div>
+                </div>
+                <div class="two-card-cnt">
+                  <div
+                    class="card clickable-card"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=ScraperWiz%20API%20Endpoint%20Request'"
+                  >
+                    <div class="card-content white-b">
+                      <div class="label">Request API</div>
+                    </div>
+                  </div>
+                  <div
+                    class="card clickable-card"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com'"
+                  >
+                    <div class="card-content white-b">
+                      <div class="label">Contact</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cnt" id="demo">
+            <div class="uni-cnt">
+              <div class="h3-cnt">
+                <h3>What is ScraperWiz?</h3>
+              </div>
+              <iframe
+                width="560"
+                height="480"
+                src="https://www.youtube.com/embed/6vNZ1BnNW7o?si=T0s0TzGUlfArcrk-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="flex-row">
+                <div class="btn-cnt">
+                  <button
+                    id="win-installer"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20Windows%20App'"
+                  >
+                    <img src="/images/windows-logo.svg" />Windows
+                  </button>
+                </div>
+                <div class="btn-cnt">
+                  <button
+                    id="darwin-installer"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20macOS%20App'"
+                  >
+                    <img src="/images/macos-logo.svg" />macOS
+                  </button>
+                </div>
+                <div
+                  class="btn-cnt"
+                  onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20Linux%20App'"
+                >
+                  <button id="deb-installer">
+                    <img src="/images/debian-logo.svg" />Linux
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cnt" id="features">
+            <div class="uni-cnt">
+              <div class="h3-cnt">
+                <h3>What does ScraperWiz do?</h3>
+              </div>
+              <div class="feature-row">
+                <div class="feature">
+                  <div class="featuer-header">
+                    Scrape and Crawl with a single click
+                  </div>
+                  <p>
+                    Use our built-in browser to navigate to any site, click
+                    “Scrape,” and let it automatically extract, paginate, and
+                    crawl data until the job completes — or pause it anytime —
+                    all with a single click.
+                  </p>
+                </div>
+                <div class="feature">
+                  <div class="featuer-header">
+                    Chat with built-in AI about your scrapes
+                  </div>
+                  <p>
+                    Engage with our AI to explore your scraped data—simply ask
+                    for summaries, dive into key insights, run analytics, and
+                    uncover trends with natural-language prompts.
+                  </p>
+                </div>
+                <div class="feature">
+                  <div class="featuer-header">
+                    Export your scrapes as CSV and JSON
+                  </div>
+                  <p>
+                    Export your scraped data in one click—whether you let AI
+                    automatically identify the most relevant data points or
+                    engage in a quick chat to tailor the export exactly to your
+                    needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cnt" id="pricing">
+            <div class="uni-cnt">
+              <div class="container-desc-cnt subscription-desc-cnt">
+                <div class="desc-cnt-h1">Packages</div>
+                <div class="desc-cnt-details">
+                  <p>* 24-hour risk-free money-back guarantee</p>
+                  <p>* Tax included in prices</p>
+                </div>
+              </div>
+
+              <div class="subs-cnt" id="subscriptions-cnt">
+                <div class="sub-cnt">
+                  <div class="name-price-cnt">
+                    <div class="package-name">EXTENSION</div>
+                    <div class="price-cnt">
+                      <div class="price-value">Free</div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>Chrome Extension<br />Amazon-only</li>
+                    <li>Amazon CSV/JSON Export</li>
+                    <li>Amazon Pagination</li>
+                  </ul>
+
+                  <button class="checkout-button" id="extension-link">
+                    Extension
+                  </button>
+                </div>
+
+                <div class="sub-cnt">
+                  <div class="name-price-cnt">
+                    <div class="package-name">MONTHLY</div>
+                    <div class="price-cnt">
+                      <div class="dolar">$</div>
+                      <div class="price-value">40</div>
+                      <div>/MO</div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="checkmark-double">Desktop App</li>
+                    <li class="checkmark-double">LLM Prompt</li>
+                    <li class="checkmark-double">Manual Proxy</li>
+                    <li class="checkmark-double">CSV/JSON Export</li>
+                    <li class="checkmark-double">LLM-structured Export</li>
+                    <li class="checkmark-double">Heuristic Pagination</li>
+                    <li class="checkmark-double">Email Support</li>
+                  </ul>
+
+                  <button
+                    class="checkout-button"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20Monthly%20App'"
+                  >
+                    Request
+                  </button>
+                </div>
+
+                <div class="sub-cnt">
+                  <div class="name-price-cnt">
+                    <div class="dis-ribbon"><span>20 % OFF</span></div>
+                    <div class="package-name">YEARLY</div>
+                    <div class="price-cnt">
+                      <div class="dolar">$</div>
+                      <div class="price-value">400</div>
+                      <div>/YR</div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="checkmark-double">Desktop App</li>
+                    <li class="checkmark-double">LLM Prompt</li>
+                    <li class="checkmark-double">Manual Proxy</li>
+                    <li class="checkmark-double">CSV/JSON Export</li>
+                    <li class="checkmark-double">LLM-structured Export</li>
+                    <li class="checkmark-double">Heuristic Pagination</li>
+                    <li class="checkmark-seal">WhatsApp Support</li>
+                  </ul>
+
+                  <button
+                    class="checkout-button"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20Yearly%20App'"
+                  >
+                    Request
+                  </button>
+                </div>
+
+                <div class="sub-cnt">
+                  <div class="name-price-cnt">
+                    <div class="package-name">App | API</div>
+                    <div class="price-cnt">
+                      <div class="price-value">Custom</div>
+                    </div>
+                  </div>
+                  <ul>
+                    <li class="checkmark-seal">Dedicated App</li>
+                    <li class="checkmark-seal">Dedicated API</li>
+                    <li class="checkmark-seal">Dedicated Storage</li>
+                    <li class="checkmark-seal">Custom Code</li>
+                    <li class="checkmark-seal">Custom Model</li>
+                    <li class="checkmark-seal">Multi Threading</li>
+                    <li class="checkmark-seal">Proxy Rotation</li>
+                    <li class="checkmark-seal">JavaScript Injection</li>
+                    <li class="checkmark-seal">Custom Export</li>
+                    <li class="checkmark-seal">Auto Pagination</li>
+                    <li class="checkmark-seal">Scheduled Tasks</li>
+                    <li class="checkmark-seal">WhatsApp Support</li>
+                  </ul>
+                  <button
+                    class="checkout-button"
+                    onclick="window.location.href='mailto:contact@scraperwiz.com?subject=Request%20Custom%20API'"
+                  >
+                    Request
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script type="module" src="header.js"></script>
+    <script type="text/javascript" src="footer.js"></script>
   </body>
 </html>
